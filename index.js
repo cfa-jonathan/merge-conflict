@@ -1,7 +1,7 @@
-function myFunction(a, b) {
-  console.log("hello")
-  let sum = a + b;
+var addNumbers = function(x, y) {
+  let sum = x + y;
+  console.log("bye")
   return sum;
 }
 
-console.log(myFunction(1, 2))
+console.log(addNumbers(10, 5))
